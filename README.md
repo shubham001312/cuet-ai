@@ -49,13 +49,6 @@ Optional environment variables:
 - `CUET_AI_CONTEXT_MESSAGES=8`
 - `CUET_AI_MAX_OUTPUT_TOKENS=1000`
 
-## Important constraints
-
-- A free public Space is not the same as "free forever". Hosting plans and Gemini quotas can change.
-- On Hugging Face free hardware, unused Spaces go to sleep.
-- On free public Hugging Face Spaces, the source code is visible to everyone.
-- Keep the Gemini key in a Space secret, not in the repository.
-- Public users can consume your shared Gemini quota. This app now rate-limits shared-key requests, and users can paste their own key in the UI if needed.
 
 ## Notes
 
